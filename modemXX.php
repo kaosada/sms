@@ -3,7 +3,7 @@
     ini_set('display_errors','On');
 
     $cmd = "/usr/bin/gammu-smsd -c /etc/gammu-ttyMODEM3 -d";
-        $paswd = "ruma1234\n";
+        $paswd = "1234\n";
     echo "The command is : ".$cmd."<br/>";
 
         // Create array of stdin, stdout and stderr of child process command
